@@ -37,5 +37,5 @@ assert() takes only one parameter as input. You pass a condition to assert(), an
 
 assert(<condition to be checked/validated>);
 
-revert(): Can be used to flag an error and revert the current call. You can also provide a message containing details about the error, and the message will be passed back to the caller. However, the message, like in require(), is an optional parameter. revert() causes the EVM to revert all the changes made to the state, and things return to the initial state or the state before the function call was made.
+revert(): The revert function in Solidity is used to generate exceptions and display an error message12. It is similar to the require function, but it does not evaluate any statement and does not depend on any state or statements1. The revert statement is used to throw an exception with a specific message2. It is commonly used to manage issues and exceptions in Solidity contracts
 The reason for reverting is that there is no safe way to continue execution because something unexpected happened. This is important as it helps in saving gas.

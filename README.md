@@ -10,7 +10,7 @@ I will be creating smart contract on Etherem blockchain using solidity porogramm
 # Code:
 I have used online Solidity IDE Remix to excute this program for now. Visit the Remix website at https://remix.ethereum.org to get started after opening the website, clicked the "+" icon in the left sidebar to start a new file. Save the document with the extension ".sol" (for example, functionErrorDemo.sol).
 
-// SPDX-License-Identifier: MIT
+ SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 contract functionError{
     function requireConditon(uint _voterAge) 
